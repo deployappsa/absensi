@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .sidebar-item {
+    @apply flex items-center gap-3 px-4 py-3 text-sm font-medium transition-colors rounded-lg;
+  }
+
+  .sidebar-item-active {
+
+/* Hide mobile toggle on login page */
+.login-page .mobile-toggle {
+  display: none !important;
+}
+
+    @apply bg-blue-900/50 text-white;
+  }
+
+  .sidebar-item-inactive {
+    @apply text-gray-300 hover:bg-blue-900/30 hover:text-white;
+  }
+}

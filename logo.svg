@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="50" viewBox="0 0 200 50">
+  <style>
+    .logo-text { font-family: Arial, sans-serif; font-weight: bold; fill: #1e40af; }
+    .accent { fill: #3b82f6; }
+  </style>
+  <text x="10" y="35" class="logo-text" font-size="32">PRESENTIA</text>
+  <circle cx="180" cy="25" r="8" class="accent"/>
+</svg>
